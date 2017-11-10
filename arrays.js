@@ -23,6 +23,6 @@ function destructivelyAddElementToEndOfArray(array, element){
 destructivelyAddElementToEndOfArray(chocolateBars, 'Milky way');
 
 function accessElementInArray(array, index){
-  return index;
+  return element;
 }
-accessElementInArray(chocolateBars, [3]);
+accessElementInArray(chocolateBars, [2]);
