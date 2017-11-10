@@ -17,7 +17,7 @@ function addElementToEndOfArray(array, element){
 addElementToEndOfArray(chocolateBars, 'Milky way');
 
 function destructivelyAddElementToEndOfArray(array, element){
-  array,push(element);
+  array.push(element);
   return array;
 }
 destructivelyAddElementToEndOfArray(chocolateBars, 'Milky way');
