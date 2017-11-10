@@ -10,3 +10,8 @@ function destructivelyAddElementToBeginningOfArray(array, element){
   return array;
 }
 destructivelyAddElementToBeginningOfArray(chocolateBars, 'Milky way');
+
+function addElementToTheEndOfArray(array, element){
+  return [array,...element];
+}
+addElementToEndOfArray(chocolateBars, 'Milky way');
