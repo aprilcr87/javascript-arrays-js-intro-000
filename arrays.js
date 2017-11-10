@@ -12,6 +12,6 @@ function destructivelyAddElementToBeginningOfArray(array, element){
 destructivelyAddElementToBeginningOfArray(chocolateBars, 'Milky way');
 
 function addElementToEndOfArray(array, element){
-  return [array,...element];
+  return [...array, element];
 }
 addElementToEndOfArray(chocolateBars, 'Milky way');
