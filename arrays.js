@@ -30,4 +30,4 @@ accessElementInArray(chocolateBars, [2]);
 function destructivelyRemoveElementFromBeginningOfArray(array){
   array = array.shift();
 }
-destructivelyRemoveElementFromBeginningOfArray(0);
+destructivelyRemoveElementFromBeginningOfArray(chocolateBars);
