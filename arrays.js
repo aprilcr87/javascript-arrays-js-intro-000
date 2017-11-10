@@ -43,4 +43,4 @@ function destructivelyRemoveElementFromEndOfArray(array){
   array.pop();
   return array;
 }
-destructivelyAddElementToEndOfArray(chocolateBars);
+destructivelyRemoveElementFromEndOfArray(chocolateBars);
