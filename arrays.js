@@ -21,3 +21,8 @@ function destructivelyAddElementToEndOfArray(array, element){
   return array;
 }
 destructivelyAddElementToEndOfArray(chocolateBars, 'Milky way');
+
+function accessElementInArray(array, index){
+  return index;
+}
+accessElementInArray(chocolateBars, [1]);
